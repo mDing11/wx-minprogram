@@ -1,0 +1,8 @@
+
+<image src="{{src}}" class="image-book"></image>
+<view class="book-info">
+  <view class="book-name">{{name}}</view>
+  <view class="score">评分:<span class="book-score">{{score}}分</span>
+    <icon type="download" color="green" size="20" class="download-book"></icon>
+  </view>
+</view>

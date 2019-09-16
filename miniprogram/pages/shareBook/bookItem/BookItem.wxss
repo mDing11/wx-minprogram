@@ -1,0 +1,37 @@
+/* pages/shareBook/bookItem/BookItem.wxss */
+
+.image-book {
+  padding-right: 5px;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+}
+
+.book-name {
+  font-size: 12px;
+  color: royalblue;
+}
+
+.score {
+  font-size: 10px;
+}
+
+.book-score{
+  font-size: 12px;
+  color: red;
+}
+
+.book-info{
+  margin-top: 12px;
+  flex-direction: column;
+  float: right;
+}
+
+.book-item{
+  display: flex;
+  flex: row;
+}
+
+.download-book{
+  float: right;
+}

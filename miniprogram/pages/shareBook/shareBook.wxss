@@ -1,0 +1,47 @@
+.book-show {
+ overflow: hidden;
+ padding:10px;
+}
+
+.input-style{
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+  border: 0.5px solid silver;
+  border-radius: 5px;
+  } 
+
+  .left-book{
+    float: left;
+    /* overflow: auto; */
+    flex-direction: column;
+    border: solid;
+    width: 100px;
+    height: 100%;
+  }
+
+  .right-book{
+    margin-left:100px; 
+    /* overflow: auto; */
+    border: solid;
+    width: 100%;
+    height: 100%;
+  }
+
+.item{
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border: 0.5 solid silver;
+  border-radius: 5px;
+  background-color: papayawhip;
+}
+
+.book-item{
+  display: flex;
+  flex: row;
+  margin: 10px 0;
+  border-bottom: 1px solid grey;
+}
+

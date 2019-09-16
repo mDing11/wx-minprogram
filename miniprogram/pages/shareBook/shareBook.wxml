@@ -1,0 +1,50 @@
+<view class="book">
+<!-- 搜索 -->
+  <view>
+  <input placeholder="搜索" class="input-style"></input> 
+  </view>
+  <!-- 查看书籍 -->
+  <view class="book-show">
+    <view class="left-book">
+      <view class="item">前端</view>
+      <view class="item">后端</view>
+    </view>
+    <view class="right-book">
+      <ul>
+       <li class="book-item">
+         <BookItem name="Redis深度历险" score="95" src="../../../images/share-book1.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="案例学web前端开发" score="70" src="../../../images/share-book2.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="JavaScript语言精髓" score="85" src="../../../images/share-book3.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="Redis深度历险" score="95" src="../../../images/share-book1.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="案例学web前端开发" score="70" src="../../../images/share-book2.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="JavaScript语言精髓" score="85" src="../../../images/share-book3.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="Java工程师修炼之道" score="70" src="../../../images/share-book5.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="剑指Offer" score="98" src="../../../images/share-book6.png"/>
+        </li>
+         <li class="book-item">
+         <BookItem name="Java工程师修炼之道" score="70" src="../../../images/share-book5.png"/>
+        </li>
+        <li class="book-item">
+         <BookItem name="剑指Offer" score="98" src="../../../images/share-book6.png"/>
+        </li>
+      </ul>
+    </view>
+  </view>
+  <!-- 下方固定导航 -->
+  <view></view>
+
+</view>

@@ -47,5 +47,12 @@
     </navigator>
   </view>
 
+<!-- 书籍推荐 -->
+  <view class="uploader">
+    <navigator url="../shareBook/shareBook" open-type="navigate" class="uploader-text">
+      <text>书籍推荐</text>
+    </navigator>
+  </view>
+  
 
 </view>

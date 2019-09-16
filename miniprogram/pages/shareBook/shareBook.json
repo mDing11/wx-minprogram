@@ -1,0 +1,5 @@
+{
+  "navigationBarTitleText": "书籍推荐",
+  "usingComponents": {
+    "BookItem": "../shareBook/bookItem/BookItem"}
+}
